@@ -1,10 +1,35 @@
 body {
        background-color: #062863;
-       position: relative;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    
+    form {
+        background-color: white;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+
     }
 
     .allimage img {
-        width: 180px;
+        width: 150px;
         position: fixed;
     }
 
@@ -31,23 +56,14 @@ body {
     
     }
 
-    .aline {
+   /* .aline {
         display: flex;
         align-items: end;
         margin-left: 550px;
-        margin-right: 500px;
+        margin-right: 500px;*/
     }
 
-    .divimg {
-        position: relative;
-        bottom: 15px;
-        right: 5px;
-    }
 
-    h1 {
-        color: white;
-        text-align: center;
-    }
 
     form {
         background-color: white;
@@ -174,7 +190,7 @@ body {
         font-size: 15px;
         padding: 15px;
         margin-top: 30px;
-        width: 285px;
+        width: 280px;
         height: 15px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -183,6 +199,13 @@ body {
 
     #p6 {
         color: white;
-        text-align: center;
+    
         font-size: 12px;
+    }
+    
+    @media (max-width: 414px) {
+            form {
+                width: 390px;
+            }
+    
     }
