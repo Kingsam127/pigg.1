@@ -214,7 +214,6 @@
     @media (max-width: 500px) {
           
          form {
-            background-color: red;
             margin-left: 20px;
             margin-right: 20px;
          }
@@ -241,8 +240,8 @@
         }
         
         .allimage .img4 {
-            height: 15opx;
-                right: -60px;
+            height: 110px;
+                right: -55px;
                 top: -10px;
         
         }
